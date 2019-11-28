@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Exhibiting Anthropology - example visualization</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/common.css">
+	<link rel="stylesheet" href="styles/mainpage.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+</head>
+
+<body>
+	<div id="main-window" class="container-fluid h-100">
+		<div id="app-header" class="row">		
+			<h2>Exhibiting Anthropology - example</h2>
+		</div>
+		
+		<div id="center-row" class="row align-items-center h-50"> 
+			<div class="col-md-1"></div>
+			<div id="cell-about" class="col-md-3 show-border mainpage-cell justify-content-center">About this project</div>
+			<div id="cell-stories" class="col-md-3 show-border mainpage-cell justify-content-center">Read stories</div>
+			<div id="cell-vis" class="col-md-3 show-border mainpage-cell justify-content-center">See results</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+	
+    <script src="scripts/common.js"></script>
+    <script src="scripts/mainwindow.js"></script>
+</body>
